@@ -1,0 +1,27 @@
+# Local configuration and credentials
+config.json
+.env
+
+# User-provided source and media assets
+assets/gameplay/*
+!assets/gameplay/.gitkeep
+data/stories/*
+!data/stories/.gitkeep
+
+# Generated pipeline artifacts
+output/
+work/
+logs/
+
+# Local models and Python artifacts
+models/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

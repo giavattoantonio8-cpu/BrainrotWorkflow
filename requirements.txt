@@ -1,0 +1,12 @@
+# Core public prototype dependencies
+moviepy>=2.0,<3.0
+numpy>=1.26
+Pillow>=10.0
+soundfile>=0.12
+kokoro-onnx
+
+# Optional story-acquisition component
+requests>=2.31
+# praw  # Optional: only needed for authenticated Reddit API access
+
+# System dependency (not installed by pip): FFmpeg, including ffprobe, must be on PATH.

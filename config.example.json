@@ -1,0 +1,40 @@
+{
+  "project": "BrainrotWorkflow public prototype",
+  "paths": {
+    "story_inbox": "data/stories/inbox",
+    "gameplay": "assets/gameplay",
+    "tts_work": "work/tts",
+    "video_output": "output/videos"
+  },
+  "tts": {
+    "provider": "kokoro-onnx",
+    "model_path": "models/kokoro/kokoro-v1.0.int8.onnx",
+    "voices_path": "models/kokoro/voices-v1.0.bin",
+    "voice": "am_michael",
+    "language": "en-us"
+  },
+  "video": {
+    "resolution": "1080x1920",
+    "fps": 30,
+    "font_path": "",
+    "font_size": 85,
+    "border_width": 8
+  },
+  "subtitles": {
+    "min_words": 2,
+    "max_words": 3
+  },
+  "text_cleanup": {
+    "sostituzioni": []
+  },
+  "reddit": {
+    "client_id": "",
+    "client_secret": "",
+    "subreddits": ["AITA", "relationship_advice"],
+    "post_limit": 10,
+    "time_filter": "day",
+    "min_score": 1000,
+    "min_parole": 100,
+    "max_parole": 800
+  }
+}
