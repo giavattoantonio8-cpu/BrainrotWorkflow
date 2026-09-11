@@ -1,10 +1,10 @@
-# BrainrotWorkflow
+﻿# BrainrotWorkflow
 
-BrainrotWorkflow is a personal AI-media automation prototype for turning an approved story into a two-part vertical video with local text-to-speech, timed on-screen captions, and a looping gameplay background. It is a learning project, not a production-ready or commercial publishing system.
+BrainrotWorkflow is a personal automation project for turning an approved story into a two-part vertical video with local text-to-speech, on-screen captions, and a looping gameplay background. It is a learning project, not a production-ready or commercial publishing system.
 
 ## Motivation
 
-I started this project after becoming interested in coding, AI automation, and Claude Code. I kept seeing short-form content promote automated TikTok workflows and decided to build my own version as a personal learning project: a real pipeline with inputs, decisions, generated artifacts, and a quality bar rather than just a one-off script.
+I started this project while learning to code and experimenting with Claude Code. After seeing short-form content promoting automated TikTok workflows, I decided to build my own system to understand what was actually happening behind them, and how far I could take the idea beyond a one-off script.
 
 ## What I Built
 
@@ -110,7 +110,7 @@ The scraper can use the unauthenticated public endpoint. If you choose authentic
 
 ## My Role
 
-I came up with the project idea, designed the overall workflow, and made the main architectural decisions. I chose and integrated the tools/APIs, decided to keep final story selection human-in-the-loop, evaluated the generated outputs, and iterated on the workflow based on quality. I used Claude Code as a coding assistant during implementation; I did not personally hand-write every line of code.
+I came up with the project idea, designed the overall workflow, and made the main architectural decisions. I chose and integrated the tools/APIs, decided to keep final story selection human-in-the-loop, evaluated the generated outputs, and iterated based on quality. I used Claude Code as a coding assistant during implementation rather than writing every line manually.
 
 ## What Worked
 
@@ -157,3 +157,4 @@ Reddit-derived text and gameplay clips may have copyright, platform-policy, attr
 - Add automated unit tests and a CI smoke test that does not require models or external services.
 - Improve reproducible model setup and cross-platform font handling.
 - Add content provenance, licensing checks, and a more deliberate visual/audio quality review process.
+
